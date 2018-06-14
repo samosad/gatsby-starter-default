@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from './Paradigm_Logo_small.svg'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -15,6 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
+      <img src={logo} alt="logo" />
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
